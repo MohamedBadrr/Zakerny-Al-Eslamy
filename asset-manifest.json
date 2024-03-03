@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Zakerny-Al-Eslamy/static/css/main.69bae63b.css",
+    "main.js": "/Zakerny-Al-Eslamy/static/js/main.41307abf.js",
+    "static/js/453.f08dce01.chunk.js": "/Zakerny-Al-Eslamy/static/js/453.f08dce01.chunk.js",
+    "static/media/bg4.png": "/Zakerny-Al-Eslamy/static/media/bg4.acb395e5be6758539799.png",
+    "static/media/logo1.png": "/Zakerny-Al-Eslamy/static/media/logo1.b262047c60613b23b323.png",
+    "static/media/fa-solid-900.ttf": "/Zakerny-Al-Eslamy/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
+    "static/media/fa-brands-400.ttf": "/Zakerny-Al-Eslamy/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
+    "static/media/fa-solid-900.woff2": "/Zakerny-Al-Eslamy/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
+    "static/media/fa-brands-400.woff2": "/Zakerny-Al-Eslamy/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
+    "static/media/fa-regular-400.ttf": "/Zakerny-Al-Eslamy/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
+    "static/media/quran1.jpeg": "/Zakerny-Al-Eslamy/static/media/quran1.ef97763553b64a72212b.jpeg",
+    "static/media/b3.jpg": "/Zakerny-Al-Eslamy/static/media/b3.4c7d78f401b790a960b0.jpg",
+    "static/media/fa-regular-400.woff2": "/Zakerny-Al-Eslamy/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Zakerny-Al-Eslamy/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Zakerny-Al-Eslamy/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
+    "index.html": "/Zakerny-Al-Eslamy/index.html",
+    "main.69bae63b.css.map": "/Zakerny-Al-Eslamy/static/css/main.69bae63b.css.map",
+    "main.41307abf.js.map": "/Zakerny-Al-Eslamy/static/js/main.41307abf.js.map",
+    "453.f08dce01.chunk.js.map": "/Zakerny-Al-Eslamy/static/js/453.f08dce01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69bae63b.css",
+    "static/js/main.41307abf.js"
+  ]
+}
