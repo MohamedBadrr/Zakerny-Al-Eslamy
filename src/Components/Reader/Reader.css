@@ -1,0 +1,136 @@
+
+
+
+.suarhscontainer .spesifcreader{
+    min-height: 60px;
+    width: 175px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .4);
+    margin: 10px 8px ;
+    border-radius: 75px;
+    text-align: center;
+    color: white;
+    background-color: #9a805b ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .5s all;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.spesifcreader a{
+    color: white;
+    text-decoration: none;
+    transition: .5s all;
+}
+.suarhscontainer .spesifcreader:hover{
+    color: #917650;
+    background-color: white;
+    a{
+        color: #917650;
+    }
+}
+.spesifcsora{
+    min-height: 70px;
+    width: 175px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .4);
+    margin: 10px 8px ;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    background-color: #9a805b ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .5s all;
+    cursor: pointer;
+    font-weight: bold;
+}
+.spesifcsora i{
+    transition: .5s all !important;
+}
+.suarhscontainer .spesifcsora:hover{
+    color: #917650;
+    background-color: white;
+    a{
+        color: #917650;
+    }
+    i{
+        color:#9a805b !important
+    }
+}
+
+.surahSoundReader{
+    width: 89%;
+    height: 90px !important;
+    background-color: red;
+    border-radius: 20px;
+    margin: auto;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    border: #614217 1px solid;
+  }
+  .surahSoundReader i{
+    position: absolute;
+    font-size: 23px;
+    top: 78px;
+    right: 93px;
+    cursor: pointer;
+  }
+  .surahSoundReader audio{
+    margin-top: 18px;
+    margin-right:30px;
+    width: 80%;
+    border-radius: 0px !important;
+  }
+  .surahSoundReader audio::-webkit-media-controls-panel{
+    background-color: #8f734c;
+  }
+  .surahSoundReader audio::-webkit-media-controls-play-button{
+    background-color: white;
+    border-radius: 50%;
+    color: white !important;
+  }
+  .surahSoundReader audio::-webkit-media-controls-current-time-display{
+   color: white;
+  }
+  .surahSoundReader audio::-webkit-media-controls-time-remaining-display{
+    color: white;
+   }
+   .surahSoundReader audio::-webkit-media-controls-timeline{
+    color: white;
+   }
+
+  
+
+
+   @media screen and (max-width: 576px) {
+    .title{
+        height: 250px;}
+          
+    
+        .surahSoundReader i{
+        right: 41px !important;
+        }
+        .surahSoundReader audio{
+        margin-top: 18px;
+        margin-right:0px;
+        width: 80%;
+        border-radius: 0px !important;
+        }}
+        @media screen  and (min-width: 360px) and (max-width: 391px) { 
+        .suarhscontainer .spesifcsora{
+            width: 150px;
+        }
+   
+        }
+    @media screen  and (min-width: 374px) and (max-width: 391px) { 
+            .suarhscontainer .reader{
+                width: 165px;
+            }
+            .title{
+                height: 270px;
+            }
+    }

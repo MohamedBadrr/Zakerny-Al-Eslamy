@@ -1,0 +1,173 @@
+
+
+.mawakitelsalah-section{
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+  }
+
+.mawakitelsalah{
+  /* margin-top: 120px !important; */
+  width: 100%;
+  height: calc(100vh - 120px);
+  background-image: url(../../imgs/bg4.png);
+}
+.smalledit{
+  height: 100vh;
+}
+.withHeader{
+  margin-top: 100px;
+}
+  .date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 30px;
+  }
+  .date .day{
+    font-size: 25px;
+    color: rgb(120, 117, 117);
+  }
+  .date .day i{
+    font-size: 25px;
+    color: rgb(92, 89, 89);
+  }
+  .date .fullDay{
+    font-size: 25px;
+    color: rgb(120, 117, 117);
+  }
+  .mawakit-title{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'sans-serif';
+    font-weight: bold;
+    padding: 8px 15px 35px;
+    text-shadow: 1px 8px 10px var(--color-3);
+    color: rgb(49, 45, 45);
+  }
+  .clock{
+    font-family: 'sans-serif';
+    margin-top: -25px;
+    text-align: center;
+    font-size: 30px;
+    color: var(--color-3);
+    font-weight: bold;
+  }
+  .time{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    
+  }
+
+  .prayers{
+    margin:30px 0px 30px 0px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pray{
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    padding: 20px 5px 10px 5px;
+    background-color: #917650;
+    border-radius: 25px;
+    font-family: 'sans-serif';
+    font-weight: bold !important;
+    font-size: 30px;
+  }
+  .salah{
+    margin: 0px;
+    font-weight: bold !important;
+    font-size: 30px;
+  }
+   .salah-eh{
+    margin-bottom: 10px;
+    font-weight: bold !important;
+    font-size: 30px;
+  }
+  .clock-salah{
+    font-family: 'sans-serif';
+    font-weight: bold !important;
+    font-size: 23px;
+  }
+  .small-text{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: 'sans-serif';
+    font-weight: bold;
+    padding: 8px 15px 35px;
+    text-shadow: 1px 8px 10px var(--color-3);
+    color: rgb(49, 45, 45);
+  }
+  .footer-makit{
+    margin-top: 20px;
+  }
+
+
+
+
+  @media screen and (max-width: 576px) { 
+    .mawakitelsalah {
+        margin-top: 220px;
+    }
+    .mawakitelsalah{
+        /* margin-top: 120px !important; */
+        width: 100%;
+        height: calc(130vh) ;
+        background-image: url(../../imgs/bg4.png);
+      }
+        .time{
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
+        
+      }
+      .pray{
+        width: 135px;
+      }
+
+      .withHeader{
+        margin-top: -140px;
+      }
+      .smalledit{
+        height: 135vh;
+      }
+
+  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media screen and  (max-width: 768px) { 
+  
+}
+
+
+@media screen  and (min-width: 360px) and (max-width: 391px) { 
+    .mawakitelsalah {
+        margin-top: 220px;
+    }
+    .mawakitelsalah{
+        /* margin-top: 120px !important; */
+        width: 100%;
+        height: calc(180vh - 120px);
+        background-image: url(../../imgs/bg4.png);
+      }
+      .pray{
+        width: 112px;
+      }
+      .date .day ,.date .fullDay{
+        font-size: 21px;
+      }
+      .clock{
+        font-size: 25px;
+      }
+
+  }
+  
+  

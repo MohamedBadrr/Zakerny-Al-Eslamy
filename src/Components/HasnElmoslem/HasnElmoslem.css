@@ -1,0 +1,259 @@
+.azkar-contanier{
+    padding-top: 75px;
+    height: fit-content ;
+}
+.title-azkar{
+    width: 100% !important;
+    height: 170px;
+    background-image: url("../../imgs/bg4.png");
+    background-position: center center;
+    border-radius: 20px;
+}
+.title-azkar h5{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family:sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.hasn-title h3{
+    font-size: 45px;
+    font-family:sans-serif;
+    text-shadow: 0px 0px 5px #e1b77c ;
+    font-weight: bold;
+}
+.hasn-title .line-1{
+    background-color: #917650;
+    height: 2px;
+    width: 15%;
+    margin: auto;
+    margin-bottom: 5px !important;
+}
+.hasn-title .line-2{
+    margin: auto;
+    background-color: #917650;
+    height: 2px;
+    width: 10%;
+}
+.form-search{
+    width: 75%;
+    display: flex;
+}
+.input-search{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    font-family: 'Segoe UI light';
+    font-weight: bold;
+    border: 1px solid #76582e;
+}
+.input-search:focus{
+    border: 2px solid #76582e !;
+}
+.button-search{
+    padding: 10px 8px 12px 15px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #917650;
+    color: white;
+    font-family: 'Segoe UI light';
+    font-weight: bold;
+    font-size: 18px;
+    transition: .5s all;
+    border: 1px solid black;
+}
+.button-search:hover{
+    background-color:white ;
+    color: #917650;
+    border: 1px solid black;
+
+}
+
+.suarhscontainer .zkr{
+    min-height: 65px;
+    width: 350px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+    margin: 10px 8px ;
+    border-radius: 10px;
+    text-align: center;
+    color: #624010;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .5s all;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 35px !important;
+}
+.zkr-title{ font-size: 27px !important; font-weight: bold !important;}
+.zkr a{
+    color: white;
+    text-decoration: none;
+    transition: .5s all;
+}
+.suarhscontainer .zkr:hover{
+    color: #624010;
+    background-color: #917650;
+    a{
+        color: white;
+    }
+}
+.zkr a{
+    color: #624010;
+    text-decoration: none;
+    transition: .5s all;
+}
+.zkr a:hover{
+    color: #917650;
+}
+.zkr-notfound{
+    width: 350px !important;
+}
+.loadingAzkar{
+    margin-bottom: 30vh;
+}
+
+.oneZkrContainer{
+    width: 80% !important;
+    margin: 30px auto;
+    margin-bottom: 50px;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .4);
+    border-radius: 5px;
+    
+}
+
+.oneZkrContainer h1 {
+    font-family:sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: #76582e;
+    border-bottom: 1px solid #76582e;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+.titlewithclose{position: relative;}
+.oneZkrContainer .closeicon{
+    font-size: 25px; 
+    cursor: pointer;
+    color: #76582e;
+}
+.zkrContent p{
+    width: 90%;
+    padding-right: 65px;
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #7d5723;
+}
+.linee{
+    height: 1px;
+    background-color: #624010;
+    width: 75%;
+    margin: 30px auto 25px auto;
+}
+.number{
+    color: #b07d35 !important;
+    margin-right: 12px;
+}
+.soundandrepit p{
+    margin-top: 10px;
+}
+.soundandrepit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play-icon{
+    padding-left: 150px;
+    font-size: 35px;
+    cursor: pointer;
+    transition: .5s all;
+}
+.play-icon:hover{
+    color: #946829;
+}
+
+.soundandrepit audio{
+    margin-top: 0px;
+    margin-left:25px;
+    height: 40px;
+    width: 50%;
+    border-radius: 3px !important;
+  }
+  .soundandrepit audio::-webkit-media-controls-panel{
+    background-color: #8f734c;
+  }
+  .soundandrepit audio::-webkit-media-controls-play-button{
+    background-color: white;
+    border-radius: 50%;
+    color: white !important;
+  }
+  .soundandrepit audio::-webkit-media-controls-current-time-display{
+   color: white;
+  }
+  .soundandrepit audio::-webkit-media-controls-time-remaining-display{
+    color: white;
+   }
+   .soundandrepit audio::-webkit-media-controls-timeline{
+    color: white;
+   }
+
+
+
+@media screen and (max-width: 576px) {
+    
+    .title-azkar {
+        height: 225px;
+    }
+    .title-azkar h5{
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-family:sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .hasn-title h3{
+        padding: 5px 20px;
+    }
+    .zkrContent p {
+        width: 95%;
+        padding-right: 25px;
+        font-size: 24px;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #7d5723;
+    }
+    .soundandrepit {
+        display: block;
+    }
+    .soundandrepit audio {
+        margin: auto;
+        margin-left: 35px !important;
+        height: 40px;
+        width: 100%;
+        border-radius: 3px !important;
+    }
+    .play-icon {
+        margin-right: 120px;
+        font-size: 35px;
+        cursor: pointer;
+        transition: .5s all;
+    }
+
+}
+    @media screen  and (min-width: 360px) and (max-width: 391px) { 
+        .play-icon {
+            margin-right: 100px;
+            font-size: 35px;
+            cursor: pointer;
+            transition: .5s all;
+        }
+    }

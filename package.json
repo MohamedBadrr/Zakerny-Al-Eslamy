@@ -1,0 +1,56 @@
+{
+  "homepage": "https://MohamedBadrr.github.io/Zakerny-Al-Eslamy",
+  "name": "Zakerny-Al-Eslamy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^4.1.0",
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.3",
+    "configstore": "^6.0.0",
+    "emailjs": "^4.0.3",
+    "gh-pages": "^6.1.1",
+    "google-translate-api": "^2.3.0",
+    "moment-hijri": "^2.1.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "^18.2.0",
+    "react-owl-carousel": "^2.3.3",
+    "react-router-dom": "^6.22.2",
+    "react-scripts": "5.0.1",
+    "react-simple-typewriter": "^5.0.1",
+    "react-typed": "^2.0.12",
+    "styled-components": "^6.1.8",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

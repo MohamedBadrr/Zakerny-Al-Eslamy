@@ -1,0 +1,240 @@
+.ahadith-section{
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+  }
+
+.title-ahadith{
+  margin-top: 75px;
+  width: 100% !important;
+  height: 180px;
+  background-image: url("../../imgs/bg4.png");
+  background-position: center center;
+  border-radius: 20px;
+
+  
+}
+.title-ahadith h5{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 20px;
+  
+}
+.ahadith-title h3{
+  font-size: 40px;
+  text-shadow: 0px 0px 5px #e1b77c ;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.ahadith-title .line-1{
+  background-color: #917650;
+  height: 2px;
+  width: 15%;
+  margin: auto;
+  margin-bottom: 5px !important;
+}
+.ahadith-title .line-2{
+  margin: auto;
+  background-color: #917650;
+  height: 2px;
+  width: 10%;
+}
+
+.onehadith{
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 8px #917650;
+  border-radius: 10px;
+}
+.buttonss{
+  display: flex;
+}
+.hadithSection{
+  margin-top: -40px;
+}
+
+.buttonss-ahadith{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.netx-btn, .previus-btn{
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #917650;
+  color: white;
+  transition: .5s;
+  border: 1px solid transparent;
+  font-family: sans-serif;
+}
+.netx-btn:hover, .previus-btn:hover{
+
+  background-color: #ffffff;
+  color: #917650;
+  border: 1px solid #917650;
+ 
+}
+.onehadith p {
+  padding: 40px 50px 40px 50px;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.title-bokhary{
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  width: fit-content;
+  margin:0px auto 10px auto;
+  padding: 5px 10px;
+  border-radius: 20px;
+  text-shadow: 0px 0px 5px #917650;
+  border-left: 2px solid #917650;
+  border-right: 2px solid #917650;
+}
+.ahadith-moslem{
+
+    margin-top: 30px !important;
+    width: 100%;
+    height: fit-content;
+}
+.edit-ahadith-header{
+  background-image:none ;
+}
+
+.withoutHeader{
+  margin-top: -70px;
+}
+
+
+
+/*      ------------------------------- media query---------------------------------------- */
+
+@media screen and (max-width: 576px) { 
+  .title-ahadith{
+    margin-top: 75px;
+    width: 100% !important;
+    padding: 2px 10px;
+    height: 330px;
+    background-image: url("../../imgs/bg4.png");
+    background-position: center center;
+    border-radius: 20px;
+  }
+  .title-ahadith h5{
+    font-family: sans-serif;
+  }
+  .titleahadithWith{
+    font-size: 23px !important; 
+    padding: 10px 20px 5px 15px;
+  }
+  .ahadith-title h3{
+    font-size: 40px;
+    text-shadow: 0px 0px 5px #e1b77c ;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .ahadith-title .line-1{
+    background-color: #917650;
+    height: 2px;
+    width: 15%;
+    margin: auto;
+    margin-bottom: 5px !important;
+  }
+  .ahadith-title .line-2{
+    margin: auto;
+    background-color: #917650;
+    height: 2px;
+    width: 10%;
+  }
+  .ahadith{
+  }
+  .onehadith{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 8px #917650;
+    border-radius: 10px;
+  }
+  .buttonss{
+    display: flex;
+  }
+  .hadithSection{
+    margin-top: -40px;
+  }
+  
+  .buttonss-ahadith{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .netx-btn, .previus-btn{
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #917650;
+    color: white;
+    transition: .5s;
+    border: 1px solid transparent;
+    font-family: sans-serif;
+  }
+  .netx-btn:hover, .previus-btn:hover{
+  
+    background-color: #ffffff;
+    color: #917650;
+    border: 1px solid #917650;
+   
+  }
+  .onehadith p {
+    padding: 40px 50px 40px 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  .title-bokhary{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    width: fit-content;
+    margin:10px auto 30px auto;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-shadow: 0px 0px 5px #917650;
+    border-left: 2px solid #917650;
+    border-right: 2px solid #917650;
+  }
+  .ahadith-moslem{
+  
+      margin-top: 30px !important;
+      width: 100%;
+      height: fit-content;
+
+  }
+
+  
+  .edit-ahadith-header{
+    background-image:none ;
+  }
+  
+  .withoutHeader{
+    margin-top: -70px;
+  }
+  
+}
+@media screen and  (max-width: 768px) { 
+  .title-ahadith h5{
+
+  }
+}
+
