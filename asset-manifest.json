@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Zakerny-Al-Eslamy/static/css/main.69bae63b.css",
-    "main.js": "/Zakerny-Al-Eslamy/static/js/main.41307abf.js",
-    "static/js/453.f08dce01.chunk.js": "/Zakerny-Al-Eslamy/static/js/453.f08dce01.chunk.js",
+    "main.js": "/Zakerny-Al-Eslamy/static/js/main.3ed99da7.js",
+    "static/js/453.e821519d.chunk.js": "/Zakerny-Al-Eslamy/static/js/453.e821519d.chunk.js",
     "static/media/bg4.png": "/Zakerny-Al-Eslamy/static/media/bg4.acb395e5be6758539799.png",
     "static/media/logo1.png": "/Zakerny-Al-Eslamy/static/media/logo1.b262047c60613b23b323.png",
     "static/media/fa-solid-900.ttf": "/Zakerny-Al-Eslamy/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
@@ -17,11 +17,11 @@
     "static/media/fa-v4compatibility.woff2": "/Zakerny-Al-Eslamy/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/Zakerny-Al-Eslamy/index.html",
     "main.69bae63b.css.map": "/Zakerny-Al-Eslamy/static/css/main.69bae63b.css.map",
-    "main.41307abf.js.map": "/Zakerny-Al-Eslamy/static/js/main.41307abf.js.map",
-    "453.f08dce01.chunk.js.map": "/Zakerny-Al-Eslamy/static/js/453.f08dce01.chunk.js.map"
+    "main.3ed99da7.js.map": "/Zakerny-Al-Eslamy/static/js/main.3ed99da7.js.map",
+    "453.e821519d.chunk.js.map": "/Zakerny-Al-Eslamy/static/js/453.e821519d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69bae63b.css",
-    "static/js/main.41307abf.js"
+    "static/js/main.3ed99da7.js"
   ]
 }
