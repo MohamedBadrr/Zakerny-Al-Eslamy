@@ -6,7 +6,6 @@
   }
 
 .mawakitelsalah{
-  /* margin-top: 120px !important; */
   width: 100%;
   height: calc(100vh - 120px);
   background-image: url(../../imgs/bg4.png);
@@ -118,7 +117,6 @@
         margin-top: 220px;
     }
     .mawakitelsalah{
-        /* margin-top: 120px !important; */
         width: 100%;
         height: calc(130vh) ;
         background-image: url(../../imgs/bg4.png);
@@ -143,8 +141,12 @@
   }
 
 /* // Medium devices (tablets, 768px and up) */
-@media screen and  (max-width: 768px) { 
-  
+@media screen and (min-width:577px) and (max-width: 768px) { 
+  .mawakitelsalah{
+    width: 100%;
+    height: fit-content ;
+    background-image: url(../../imgs/bg4.png);
+  }
 }
 
 

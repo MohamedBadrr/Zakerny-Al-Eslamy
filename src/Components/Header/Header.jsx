@@ -45,8 +45,8 @@ const Header = () => {
             القرآن الكريم
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/quran">قراءة سور القرآن الكريم</a></li>
-            <li><a class="dropdown-item" href="/listen">الأستماع الي القران الكريم بصوت جميع الشيوخ  </a></li>
+            <li><Link class="dropdown-item" to="/quran">قراءة سور القرآن الكريم</Link></li>
+            <li><Link class="dropdown-item" to="/listen">الأستماع الي القران الكريم بصوت جميع الشيوخ  </Link></li>
           </ul>
         </li>
         <li className="nav-item">

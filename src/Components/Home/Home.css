@@ -216,20 +216,10 @@
   padding-top: 30px;
 }
 
-
-
-
-
-
-
-
-
-.footer-home{
-
+#AhadithWITHOUTHEADER {
+  margin-top: -130px;
+  padding-top: 210px;
 }
-
-
-
 
 /*      ------------------------------- media query---------------------------------------- */
 
@@ -289,7 +279,7 @@
       .quran{
         margin-top: 30px !important;
         width: 100%;
-        height: calc(135vh - 30px);
+        height: fit-content !important;
         background-image: url(../../imgs/bg4.png);
       }
       .btn-1{

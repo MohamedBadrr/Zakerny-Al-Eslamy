@@ -116,12 +116,6 @@
 .title{
     height: 250px;
 }
- .footerinlisten {
-    position: absolute;
-    width: 100%;
-    z-index: 9999;
-    bottom: -8700px !important;
-  }
 }
  @media screen  and (min-width: 360px) and (max-width: 361px) { 
     .suarhscontainer .reader{
