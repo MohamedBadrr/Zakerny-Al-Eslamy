@@ -218,11 +218,11 @@
 
 #AhadithWITHOUTHEADER {
   margin-top: -130px;
-  padding-top: 210px;
+  padding-top: 100px;
 }
 
 /*      ------------------------------- media query---------------------------------------- */
-
+@media screen and (min-width) and (max-width: 360px) {}
 @media screen and (max-width: 576px) { 
     .data-home{
         margin-right: 25px;
@@ -292,8 +292,6 @@
    
   }
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }

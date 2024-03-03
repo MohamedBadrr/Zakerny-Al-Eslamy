@@ -276,7 +276,7 @@ export const Ahadith2withoutheader = () => {
     <div>
               <>
     <section id="#AhadithWithoutHeader">
-    <div className="ahadith-section pt-4">
+    <div className="ahadith-section pt-1">
         <div className="bokhaaryy">
         <div className='title-ahadith edit-ahadith-header'>
             <div className='text-center'>
