@@ -139,53 +139,43 @@
       }
 
   }
-
-/* // Medium devices (tablets, 768px and up) */
-@media screen and (min-width:577px) and (max-width: 768px) { 
-  .mawakitelsalah{
-    width: 100%;
-    height: fit-content ;
-    background-image: url(../../imgs/bg4.png);
+  @media screen and (min-width:0px) and (max-width: 360px) {
+    .mawakitelsalah{
+      /* margin-top: 120px !important; */
+      width: 100%;
+      height: fit-content;
+      background-image: url(../../imgs/bg4.png);
+    }
+    .pray{
+      width: 102px;
+    }
+    .pray h3{
+      font-size: 25px;
+    }
+    .mawakit-title{
+      font-size: 40px;
+    }
+    .date .day{
+      font-size: 20px;
+    }
+    .date .fullDay{
+      font-size: 20px;
+    }
+    .clock{
+      font-size: 22px;
+    }
+    .ahadith-section{
+      padding-top: 0px !important;
+    }
   }
-}
-
-@media screen and (min-width:340px) and (max-width: 360px) {
-  .mawakitelsalah{
-    /* margin-top: 120px !important; */
-    width: 100%;
-    height: fit-content;
-    background-image: url(../../imgs/bg4.png);
-  }
-  .pray{
-    width: 102px;
-  }
-  .pray h3{
-    font-size: 25px;
-  }
-  .mawakit-title{
-    font-size: 40px;
-  }
-  .date .day{
-    font-size: 20px;
-  }
-  .date .fullDay{
-    font-size: 20px;
-  }
-  .clock{
-    font-size: 22px;
-  }
-  .ahadith-section{
-    padding-top: 0px !important;
-  }
-}
-@media screen  and (min-width: 360px) and (max-width: 391px) { 
+  @media screen  and (min-width: 360px) and (max-width: 575px) { 
     .mawakitelsalah {
         margin-top: 220px;
     }
     .mawakitelsalah{
         /* margin-top: 120px !important; */
         width: 100%;
-        height: calc(180vh - 120px);
+        height: fit-content;
         background-image: url(../../imgs/bg4.png);
       }
       .pray{
@@ -199,5 +189,15 @@
       }
 
   }
+  @media screen and (min-width:577px) and (max-width: 768px) { 
+    .mawakitelsalah{
+      width: 100%;
+      height: fit-content ;
+      background-image: url(../../imgs/bg4.png);
+    }
+  }
+
+
+
   
   

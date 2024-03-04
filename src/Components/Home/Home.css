@@ -267,6 +267,9 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media screen and  (max-width: 768px) { 
+  .quran-section {
+    height: fit-content;
+}
     .data-home{
         margin-right: 25px;
     }
