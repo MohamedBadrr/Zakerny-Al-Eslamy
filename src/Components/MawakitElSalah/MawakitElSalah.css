@@ -83,12 +83,12 @@
   .salah{
     margin: 0px;
     font-weight: bold !important;
-    font-size: 30px;
+    font-size: 28px;
   }
    .salah-eh{
     margin-bottom: 10px;
     font-weight: bold !important;
-    font-size: 30px;
+    font-size: 27px;
   }
   .clock-salah{
     font-family: 'sans-serif';
@@ -130,6 +130,11 @@
       .pray{
         width: 135px;
       }
+      .salah-eh{
+        margin-bottom: 10px;
+        font-weight: bold !important;
+        font-size: 26px;
+      }
 
       .withHeader{
         margin-top: -140px;
@@ -141,7 +146,6 @@
   }
   @media screen and (min-width:0px) and (max-width: 360px) {
     .mawakitelsalah{
-      /* margin-top: 120px !important; */
       width: 100%;
       height: fit-content;
       background-image: url(../../imgs/bg4.png);
@@ -167,6 +171,11 @@
     .ahadith-section{
       padding-top: 0px !important;
     }
+    .salah-eh{
+      margin-bottom: 10px;
+      font-weight: bold !important;
+      font-size: 26px;
+    }
   }
   @media screen  and (min-width: 360px) and (max-width: 575px) { 
     .mawakitelsalah {
@@ -187,6 +196,11 @@
       .clock{
         font-size: 25px;
       }
+      .salah-eh{
+        margin-bottom: 10px;
+        font-weight: bold !important;
+        font-size: 26px;
+      }
 
   }
   @media screen and (min-width:577px) and (max-width: 768px) { 
@@ -194,6 +208,11 @@
       width: 100%;
       height: fit-content ;
       background-image: url(../../imgs/bg4.png);
+    }
+    .salah-eh{
+      margin-bottom: 10px;
+      font-weight: bold !important;
+      font-size: 26px;
     }
   }
 
