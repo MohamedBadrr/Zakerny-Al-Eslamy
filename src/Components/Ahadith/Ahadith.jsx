@@ -123,10 +123,10 @@ const Ahadith = () => {
             <div className='line-2 '></div>
             </div>
             </div>
-        <div className="container hadithSection" id="AHADITHBOSHARY">
+        <div className="container hadithSection" >
         <div className=" section ahadith p-5">
                 <h3 className="text-center pb-3 title-bokhary" >مجــــــمــــــوعة احــــــاديــــــث من صحــــــيــــــح البُــــــخــــــاري </h3>
-                <div className="onehadith">
+                <div className="onehadith" id="AHADITHBOSHARY">
                 <p>{firsthadirh}</p>
                 </div>
                 <div className="buttonss-ahadith">
@@ -134,10 +134,10 @@ const Ahadith = () => {
                     <a href="#AHADITHBOSHARY"><button className="previus-btn" onClick={()=>{setIndex(index);getHadith(index)}}> السابق </button></a>
                 </div>
              </div>
-             <div className="moslem withoutHeader" id="AHADITHMOSLEM">
+             <div className="moslem withoutHeader" >
             <div className=" section ahadith-moslem p-5 ">
                 <h3 className="text-center pb-3 title-bokhary" >مجــــــمــــــوعة احــــــاديــــــث من صحــــــيــــــح  مُــســلــم  </h3>
-                <div className="onehadith">
+                <div className="onehadith" id="AHADITHMOSLEM">
                 <p>{firsthadirhMoslem}</p>
                 </div>
                 <div className="buttonss-ahadith">
@@ -291,7 +291,7 @@ export const Ahadith2withoutheader = () => {
         <div className="container hadithSection">
         <div className=" section ahadith p-5">
                 <h3 className="text-center pb-3 title-bokhary" >مجــــــمــــــوعة احــــــاديــــــث من صحــــــيــــــح البُــــــخــــــاري </h3>
-                <div className="onehadith">
+                <div className="onehadith" id="#AhadithWithoutHeader">
                 <p>{firsthadirh}</p>
                 </div>
                 <div className="buttonss-ahadith">
@@ -299,10 +299,10 @@ export const Ahadith2withoutheader = () => {
                     <a href="#AhadithWITHOUTHEADER"><button className="previus-btn" onClick={()=>{setIndex(index-1);getHadith(index)}}> السابق </button></a>
                 </div>
               </div>
-              <div className="moslem withoutHeader" id="AHADITHWIOURHEADERMOSLEM" >
+              <div className="moslem withoutHeader"  >
             <div className=" section ahadith-moslem p-5 ">
                 <h3 className="text-center pb-3 title-bokhary" >مجــــــمــــــوعة احــــــاديــــــث من صحــــــيــــــح  مُــســلــم  </h3>
-                <div className="onehadith">
+                <div className="onehadith" id="AHADITHWIOURHEADERMOSLEM">
                 <p>{firsthadirhMoslem}</p>
                 </div>
                 <div className="buttonss-ahadith">
