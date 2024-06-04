@@ -1,104 +1,79 @@
-
-.navbar{
-    width: 100% !important;
-    background-color: transparent !important;
-    position: fixed !important;
-    top: 0;
-    transition: .5s all !important;
-    z-index: 99 !important;
-  }
-
-  .navbar-brand{
-    letter-spacing:1.5 !important;
-    font-size: 29px !important;
-    color: white !important;
-    margin-right: 8px !important;
-
-  }
-  .logo{
-    width: 50px !important;
-    height: 50px !important;
-  }
-  .nav-link{
-    color: white !important;
-    font-weight: bold !important;
-    font-size: 16.5px !important;
-    font-family: 'Segoe UI';
-    margin: 0px 8px;
-    transition: .5s all !important;
-  }
-  .active{
-    border-bottom: 2px solid #021230 !important;
-    color: #021230 !important;
-    padding-bottom: -10px !important;
-    font-size: 19px !important;
-  }
-  .navbar-toggler{
-    border: none !important;
-    color: white !important;
-    
-  }
-  .navbaar-icon{
-    font-size: 30px !important;
-  }
-  .twasl{
-    border: #021230 1px solid !important;
-    border-radius: 10px;
-    transition: .9s all !important;
-  }
-  .twasl:hover{
-    border: white 1px solid !important;
-    border-radius: 10px;
-    color: #021230 !important;
-    background-color: white !important;
-  }
-  .navbar_BG{
-    background-color:#917650 !important;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5) !important;
-  }
-  .navbar_Seconed_BG{
-    background-color:#917650 !important;
-  }
-
-
-
-
-
-
-
-  @media screen and (max-width: 990px) {
-
-    .navbar{
-      text-align: center;
-      border-radius: 15px !important;
-    }
-    .navbar-list{
-      /* background-color:  rgba(255, 255, 255) !important; */
-      background-color:  #917650 !important;
-      /* color: #021230 !important; */
-      color: white !important;
-      box-shadow: 0 0 5px black;
-    }
-    .nav-link{
-      color: #021230 !important;
-      /* color: white !important; */
-    }
-    .active{
-      border-bottom: 1px solid #021230 !important;
-
-    }
-    .twasl{
-      margin-bottom: 8px !important;
-    }
+.navbar {
+  width: 100% !important;
+  background-color: transparent !important;
+  position: fixed !important;
+  top: 0;
+  transition: 0.5s all !important;
+  z-index: 99 !important;
 }
 
+.navbar-brand {
+  letter-spacing: 1.5 !important;
+  font-size: 29px !important;
+  color: white !important;
+  margin-right: 8px !important;
+}
+.logo {
+  width: 50px !important;
+  height: 50px !important;
+}
+.nav-link {
+  color: white !important;
+  font-weight: bold !important;
+  font-size: 16.5px !important;
+  font-family: "Segoe UI";
+  margin: 0px 8px;
+  transition: 0.5s all !important;
+}
+.active {
+  border-bottom: 2px solid #021230 !important;
+  color: #021230 !important;
+  padding-bottom: -10px !important;
+  font-size: 19px !important;
+}
+.navbar-toggler {
+  border: none !important;
+  color: white !important;
+}
+.navbaar-icon {
+  font-size: 30px !important;
+}
+.twasl {
+  border: #021230 1px solid !important;
+  border-radius: 10px;
+  transition: 0.9s all !important;
+}
+.twasl:hover {
+  border: white 1px solid !important;
+  border-radius: 10px;
+  color: #021230 !important;
+  background-color: white !important;
+}
+.navbar_BG {
+  background-color: #917650 !important;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5) !important;
+}
+.navbar_Seconed_BG {
+  background-color: #917650 !important;
+}
 
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 990px) {
+  .navbar {
+    text-align: center;
+    border-radius: 15px !important;
+  }
+  .navbar-list {
+    background-color: #917650 !important;
+    color: white !important;
+    box-shadow: 0 0 5px black;
+  }
+  .nav-link {
+    color: #021230 !important;
+  }
+  .active {
+    border-bottom: 1px solid #021230 !important;
+  }
+  .twasl {
+    margin-bottom: 8px !important;
+  }
+}

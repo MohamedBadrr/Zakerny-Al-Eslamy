@@ -1,131 +1,126 @@
-.suwar-contanier{
-    padding-top: 73px;
+.suwar-contanier {
+  padding-top: 73px;
 }
-.quran{
+.quran {
   width: 102%;
 }
-.quran-title h3{
-    font-size: 30px;
-    text-shadow: 0px 0px 5px #917650 ;
-    font-weight: bold;
+.quran-title h3 {
+  font-size: 30px;
+  text-shadow: 0px 0px 5px #917650;
+  font-weight: bold;
 }
-.quran-title .line-1{
-    background-color: #917650;
-    height: 2px;
-    width: 15%;
-    margin: auto;
-    margin-bottom: 5px !important;
+.quran-title .line-1 {
+  background-color: #917650;
+  height: 2px;
+  width: 15%;
+  margin: auto;
+  margin-bottom: 5px !important;
 }
-.quran-title .line-2{
-    margin: auto;
-    background-color: #917650;
-    height: 2px;
-    width: 10%;
+.quran-title .line-2 {
+  margin: auto;
+  background-color: #917650;
+  height: 2px;
+  width: 10%;
 }
-.surah p{
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.suarhscontainer{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-bottom: 50px !important;
-
+.surah p {
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
-.suarhscontainer .surah{
-    min-height: 110px;
-    min-width: 150px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, .4);
-    margin: 10px 8px ;
-    border-radius: 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: .5s all;
-    cursor: pointer;
-}
-.name-surah{
-    font-size: 19px;
-    font-weight: bold;
+.suarhscontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 50px !important;
 }
 
-.loon{
-    color:#917650
+.suarhscontainer .surah {
+  min-height: 110px;
+  min-width: 150px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  margin: 10px 8px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+.name-surah {
+  font-size: 19px;
+  font-weight: bold;
 }
 
-.read-btn,.listen-btn{
-    text-align: center;
-    padding: 3px 10px 3px 10px;
-    margin: 2px 4px;
-    border-radius: 3px;
-    background-color: #917650;
-    /* color: white; */
-    font-size: 15px;
-    font-weight: bold;
-    border: 1px solid #664920;
-    transition: all .9s;
-  
-  }
-  .listen-btn{
-    background-color: rgb(253, 251, 251);
-    color: #614217;
-  }
-  
-  .read-icon {
-    margin:5px 8px;
-    font-size: 30px;
-    transition: .5s all;
-    color: #614217;
-  }
-  .listen-icon{
-    margin:5px 8px;
-    font-size: 28px;
-    transition: .5s all;
-    color: black;
-  }
-  .read-icon:hover{
-    color: black;   
-  }
-  .listen-icon:hover{
-    color: #664920;
-  }
-  
-  .read-btn a {
-    text-decoration: none;
-    color: white;
-    transition: all .9s;
-    
-  } 
-  .listen-btn a{
-    text-decoration: none;
-    color: #614217;
-    transition: all .9s;
-  } 
-  
-  .read-btn:hover{
-    background-color: white;
+.loon {
+  color: #917650;
+}
+
+.read-btn,
+.listen-btn {
+  text-align: center;
+  padding: 3px 10px 3px 10px;
+  margin: 2px 4px;
+  border-radius: 3px;
+  background-color: #917650;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid #664920;
+  transition: all 0.9s;
+}
+.listen-btn {
+  background-color: rgb(253, 251, 251);
+  color: #614217;
+}
+
+.read-icon {
+  margin: 5px 8px;
+  font-size: 30px;
+  transition: 0.5s all;
+  color: #614217;
+}
+.listen-icon {
+  margin: 5px 8px;
+  font-size: 28px;
+  transition: 0.5s all;
+  color: black;
+}
+.read-icon:hover {
+  color: black;
+}
+.listen-icon:hover {
+  color: #664920;
+}
+
+.read-btn a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.9s;
+}
+.listen-btn a {
+  text-decoration: none;
+  color: #614217;
+  transition: all 0.9s;
+}
+
+.read-btn:hover {
+  background-color: white;
+  color: #614217 !important;
+  a {
     color: #614217 !important;
-      a{
-        color: #614217 !important;
-    }
-  
   }
-  
-  .listen-btn:hover{
-    background-color: #917650;
-    color: white;
-    a{
-        color: white;
-    }
-  }
-  
+}
 
-.testAyat{
+.listen-btn:hover {
+  background-color: #917650;
+  color: white;
+  a {
+    color: white;
+  }
+}
+
+.testAyat {
   background-color: rgb(175, 169, 169);
   width: 100%;
   min-height: 100px;
@@ -133,32 +128,30 @@
   font-size: 18px;
 }
 
-
-.suwarwithayats{
+.suwarwithayats {
   position: relative;
-  
 }
-.bsmelaah{
+.bsmelaah {
   position: relative;
 }
 
-.bsmelaah p{
+.bsmelaah p {
   font-size: 23px;
   font-weight: bold;
   margin-bottom: 10px;
   margin-top: -5px;
   color: #a97f49;
 }
-.bsmelaah i{
+.bsmelaah i {
   position: absolute;
   right: -30px;
   top: -10px;
   font-size: 25px;
   cursor: pointer;
   color: black;
-  transition: .5S ALL;
+  transition: 0.5s ALL;
 }
-.bsmelaah i:hover{
+.bsmelaah i:hover {
   position: absolute;
   right: -30px;
   top: -10px;
@@ -166,38 +159,40 @@
   cursor: pointer;
   color: #866a44;
 }
-.bsmelaah img{
+.bsmelaah img {
   width: 35%;
   height: 50px !important;
   margin-top: -22px;
   margin-bottom: 15px;
 }
-.ayat{
+.ayat {
   width: 89%;
   min-height: 150px !important;
   margin-right: 70px;
   padding: 20px 50px;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
-  border:2.5px solid #866a44;
+  border: 2.5px solid #866a44;
 }
-.oneaya{
+.oneaya {
   display: inline !important;
   padding: 3px 5px !important;
   font-size: 23px;
   font-weight: 400;
   margin-top: 15px;
 }
-.text-aya{
-  padding: 20px 0px !important;display: inline !important;
+.text-aya {
+  padding: 20px 0px !important;
+  display: inline !important;
 }
-.speColor{
-  color: #cd7a05fe;display: inline !important;
+.speColor {
+  color: #cd7a05fe;
+  display: inline !important;
 }
-.spinnerContainer{
+.spinnerContainer {
   position: relative;
 }
-.spinnerContainer i{
+.spinnerContainer i {
   position: absolute;
   top: 15px !important;
   right: 480px;
@@ -205,7 +200,7 @@
   z-index: 9999;
   font-size: 55px;
 }
-.surahSound{
+.surahSound {
   width: 89%;
   height: 90px !important;
   background-color: red;
@@ -215,50 +210,50 @@
   background-color: rgb(255, 255, 255);
   border: #614217 1px solid;
 }
-.surahSound i{
+.surahSound i {
   position: absolute;
   font-size: 23px;
-  top:95px;
+  top: 95px;
   right: 93px;
   cursor: pointer;
 }
-.surahSound audio{
+.surahSound audio {
   margin-top: 20px;
   margin-right: 100px;
   width: 80%;
   border-radius: 0px !important;
 }
-.surahSound audio::-webkit-media-controls-panel{
+.surahSound audio::-webkit-media-controls-panel {
   background-color: #8f734c;
 }
-.surahSound audio::-webkit-media-controls-play-button{
+.surahSound audio::-webkit-media-controls-play-button {
   background-color: white;
   border-radius: 50%;
   color: white !important;
 }
-.surahSound audio::-webkit-media-controls-current-time-display{
- color: white;
+.surahSound audio::-webkit-media-controls-current-time-display {
+  color: white;
 }
-.surahSound audio::-webkit-media-controls-time-remaining-display{
+.surahSound audio::-webkit-media-controls-time-remaining-display {
   color: white;
- }
- .surahSound audio::-webkit-media-controls-timeline{
+}
+.surahSound audio::-webkit-media-controls-timeline {
   color: white;
- }
- 
-.loadingSound{
+}
+
+.loadingSound {
   margin-bottom: 25px;
   font-size: 30px !important;
 }
-.closeSound{
+.closeSound {
   top: 165px !important;
   right: 95px !important;
 }
 
 /*      ------------------------------- media query---------------------------------------- */
 
-@media screen and (max-width: 576px) { 
-    .ayat{
+@media screen and (max-width: 576px) {
+  .ayat {
     width: 96%;
     min-height: 150px !important;
     margin-right: 8px;
@@ -267,103 +262,91 @@
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     border: 2.5px solid #866a44;
-    }
+  }
   .oneaya {
-      display: inline !important;
-      padding: 3px 5px 3px 0px !important;
-      font-size: 20px ;
-      font-weight: 400;
-      margin-top: 15px;
+    display: inline !important;
+    padding: 3px 5px 3px 0px !important;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
   }
   .bsmelaah img {
     width: 100%;
     height: 50px !important;
     margin-top: -22px;
     margin-bottom: 15px;
-}
-.spinnerContainer{
-  position: relative;
-}
-.spinnerContainer i{
-  position: absolute;
-  top: 15px !important;
-  right: 105px;
-  color: #917650;
-  z-index: 9999;
-  font-size: 55px;
-}
-.surahSound{
-  /* position: absolute; */
-  width: 89%;
-  height: 90px !important;
-  background-color: red;
-  border-radius: 20px;
-  margin: auto;
-  margin: 20px auto;
-  background-color: rgb(255, 255, 255);
-  border: #614217 1px solid;
-}
-.surahSound i{
-  position: absolute;
-  font-size: 19px;
-  top:95px;
-  right: 43px;
-  cursor: pointer;
-}
-.surahSound audio{
-  margin-top: 20px;
-  margin-right: 40px;
-  width: 80%;
-  border-radius: 0px !important;
-}
-.closeSound{
-  top: 140px !important;
-  right: 45px !important;
-}
+  }
+  .spinnerContainer {
+    position: relative;
+  }
+  .spinnerContainer i {
+    position: absolute;
+    top: 15px !important;
+    right: 105px;
+    color: #917650;
+    z-index: 9999;
+    font-size: 55px;
+  }
+  .surahSound {
+    width: 89%;
+    height: 90px !important;
+    background-color: red;
+    border-radius: 20px;
+    margin: auto;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    border: #614217 1px solid;
+  }
+  .surahSound i {
+    position: absolute;
+    font-size: 19px;
+    top: 95px;
+    right: 43px;
+    cursor: pointer;
+  }
+  .surahSound audio {
+    margin-top: 20px;
+    margin-right: 40px;
+    width: 80%;
+    border-radius: 0px !important;
+  }
+  .closeSound {
+    top: 140px !important;
+    right: 45px !important;
+  }
 }
 
-@media screen  and (min-width: 360px) and (max-width: 361px) { 
-  .ayat{
-    
+@media screen and (min-width: 360px) and (max-width: 361px) {
+  .ayat {
     width: 95%;
     min-height: 150px !important;
-  
+
     margin-right: 8px;
     padding: 20px 50px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     border: 2.5px solid #866a44;
-    }
+  }
   .oneaya {
     display: inline !important;
     padding: 3px 5px 3px 0px !important;
-    font-size: 16px ;
+    font-size: 16px;
     font-weight: 400;
     margin-top: 15px;
-}
-.spinnerContainer{
-  position: relative;
-}
-.spinnerContainer i {
-  position: absolute;
-  top: 15px !important;
-  right: 85px;
-  color: #917650;
-  z-index: 9999;
-  font-size: 55px;
   }
-  .surahSound audio{
+  .spinnerContainer {
+    position: relative;
+  }
+  .spinnerContainer i {
+    position: absolute;
+    top: 15px !important;
+    right: 85px;
+    color: #917650;
+    z-index: 9999;
+    font-size: 55px;
+  }
+  .surahSound audio {
     margin-top: 20px;
     margin-right: 38px;
-
   }
 }
-
-
-
-
-
-
-
-
-

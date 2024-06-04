@@ -1,115 +1,116 @@
-.ContacotUS{
-    padding-top: 75px;
+.ContacotUS {
+  padding-top: 75px;
 }
-.contact-title h5{
-    font-size: 22px;
+.contact-title h5 {
+  font-size: 22px;
 }
-.contact-title h3{
-    font-size: 45px;
-    font-family: sans-serif;
-}
-
-.form{
-    margin-top: 30px;
+.contact-title h3 {
+  font-size: 45px;
+  font-family: sans-serif;
 }
 
-.filed input{
-    width: 50%;
-    margin: 10px 0px;
-    padding: 10px 5px 10px 5px;
-    border: 2px solid #917650;
-    border-radius: 15px;
+.form {
+  margin-top: 30px;
 }
-.filed input:focus{
-    border: none !important;
+
+.filed input {
+  width: 50%;
+  margin: 10px 0px;
+  padding: 10px 5px 10px 5px;
+  border: 2px solid #917650;
+  border-radius: 15px;
 }
-.message{
-    width: 50%;
-    border: 2px solid #917650;
-    border-radius: 15px;
-    padding: 10px 5px 10px 5px;
+.filed input:focus {
+  border: none !important;
 }
-.contact-button{
-    width: 50%;
-    background-color: #917650;
-    font-size: 25px;
-    border: 1px solid transparent;
-    border-radius: 15px;
-    font-family: sans-serif;
-    font-weight: bold;
-    transition: .5s all;
-    margin-bottom: 10px;
+.message {
+  width: 50%;
+  border: 2px solid #917650;
+  border-radius: 15px;
+  padding: 10px 5px 10px 5px;
 }
-.contact-button:hover{
-    color: #917650 !important;
-    background-color: white;
-    border: #917650 1px solid;
+.contact-button {
+  width: 50%;
+  background-color: #917650;
+  font-size: 25px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  transition: 0.5s all;
+  margin-bottom: 10px;
 }
-.contactME{
-    width: 75%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 70px;
+.contact-button:hover {
+  color: #917650 !important;
+  background-color: white;
+  border: #917650 1px solid;
 }
-.myEmail a{
-    font-size: 18px;
-    margin-left: 6px;
-    text-decoration: none;
-    color: black;
+.contactME {
+  width: 75%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 70px;
 }
-.myEmail a:hover{
-    color: #917650;
+.myEmail a {
+  font-size: 18px;
+  margin-left: 6px;
+  text-decoration: none;
+  color: black;
 }
-.myEmail i{
-    font-size: 18px;
-    text-decoration: none;
-    color: #917650;
+.myEmail a:hover {
+  color: #917650;
 }
-.mylocation span{
-    font-size: 23px;
-    font-family: sans-serif;
-    letter-spacing: 1.1px;
-    margin-right: 5px;
+.myEmail i {
+  font-size: 18px;
+  text-decoration: none;
+  color: #917650;
 }
-.mylocation i{
-    font-size: 18px;
-    text-decoration: none;
-    color: #917650;
+.mylocation span {
+  font-size: 23px;
+  font-family: sans-serif;
+  letter-spacing: 1.1px;
+  margin-right: 5px;
+}
+.mylocation i {
+  font-size: 18px;
+  text-decoration: none;
+  color: #917650;
 }
 
 @media screen and (max-width: 576px) {
-
-    .contact-title h5{
-        padding: 20px 8px 5px 8px;
-        width: 95%;
-        font-size: 22px;
-    }
-    .contact-title h3{
-        font-size: 45px;
-        font-family: sans-serif;
-    }
-    .filed input{
-        width: 90%;;
-    }
-    .contact-button{
-        width: 90%;
-    }
-    .message{
+  .contact-title h5 {
+    padding: 20px 8px 5px 8px;
+    width: 95%;
+    font-size: 22px;
+  }
+  .contact-title h3 {
+    font-size: 45px;
+    font-family: sans-serif;
+  }
+  .filed input {
+    width: 90%;
+  }
+  .contact-button {
+    width: 90%;
+  }
+  .message {
     width: 90%;
     margin-bottom: 15px;
-    }
-    .contactME{
-        display: flex;
-        flex-direction: column;
-        flex-direction: column-reverse;
-    }
-    .myEmail{
-        margin-top: 15px;
-    }
-    .line-1 , .line-2{ display: none}
-
+  }
+  .contactME {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .myEmail {
+    margin-top: 15px;
+  }
+  .line-1,
+  .line-2 {
+    display: none;
+  }
 }

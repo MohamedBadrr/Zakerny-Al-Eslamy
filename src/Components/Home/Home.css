@@ -1,217 +1,201 @@
-.Header{
-    height: 100vh;
-    background-image: url("../../imgs/b3.jpg");
-    background-position: center center;
-    background-size: 100% 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .data-home{
-        margin-top: -70px;
-  }
-  .data-home h1{
-    color: white;
-    font-size: 40px;
-    margin-bottom: 18px;
-  }
-  .home-title{
-    font-weight: bold;
-    /* color: rgb(165, 122, 40) ; */
-    font-size: 50px;
-    /* color: #021230; */
-     background-image: linear-gradient(90deg ,#0b1c3b, #142647 );
-    -webkit-background-clip: text !important;
-    color: transparent !important; 
-    text-shadow: 7px 12px 12px #695441;
-  }
-  .data-home p{
-    width: 50%;
-    margin-top: 30px ;
-    color: rgb(255, 255, 255);
-    font-size: 18.5px;
-  }
-
-  .data-home button i{
-    /* color: #021230; */
-    color: white;
-    font-size: 15px;
-    transition: .7s all !important;
-
+.Header {
+  height: 100vh;
+  background-image: url("../../imgs/b3.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.data-home {
+  margin-top: -70px;
+}
+.data-home h1 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 18px;
+}
+.home-title {
+  font-weight: bold;
+  font-size: 50px;
+  background-image: linear-gradient(90deg, #0b1c3b, #142647);
+  -webkit-background-clip: text !important;
+  color: transparent !important;
+  text-shadow: 7px 12px 12px #695441;
+}
+.data-home p {
+  width: 50%;
+  margin-top: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 18.5px;
 }
 
-  /* styleeeeee111111111111111111111111111111111111111111111111 */
-  .home-button-section{
-    margin-top: 20px;
-    padding: 5px 20px 10px 20px ;
-    color: #021230;
-    font-size: 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    background-color: transparent;
-    border: 2px solid #021230;
-    transition: .7s all !important;
-    box-shadow: 0px 0px 5px #614217;
-     font-weight: bold !important;
+.data-home button i {
+  color: white;
+  font-size: 15px;
+  transition: 0.7s all !important;
+}
+.home-button-section {
+  margin-top: 20px;
+  padding: 5px 20px 10px 20px;
+  color: #021230;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid #021230;
+  transition: 0.7s all !important;
+  box-shadow: 0px 0px 5px #614217;
+  font-weight: bold !important;
+}
+.home-button-section i {
+  color: #021230 !important;
+  font-weight: bold !important;
+}
+.home-button-section a {
+  text-decoration: none;
+  color: #021230 !important;
+  transition: 0.7s all !important;
+}
+.home-button-section a:hover {
+  color: #ffffff !important;
+}
+.home-button-section:hover {
+  margin-top: 20px;
+  padding: 5px 20px 10px 20px;
+  color: white !important;
+  background-color: #021230 !important;
+  .color-icon {
+    color: white !important;
   }
-  .home-button-section i{
+}
 
-    color: #021230 !important;
-    font-weight: bold !important;
- 
-  }
-  .home-button-section a{
-    text-decoration: none;
-    color: #021230 !important;
-    transition: .7s all !important;
-  }
-  .home-button-section a:hover{
-    color: #ffffff !important;
-
-  }
-  .home-button-section:hover{
-    margin-top: 20px;
-    padding: 5px 20px 10px 20px ;
-    color:white !important;
-    background-color: #021230 !important;
-    .color-icon{
-        color: white !important;
-    }
-  } 
-
-  .button-2{
-    margin-top: 20px;
-  background-image: linear-gradient(to right,#1a2433,#4d6691, #2a477c) !important ; 
+.button-2 {
+  margin-top: 20px;
+  background-image: linear-gradient(
+    to right,
+    #1a2433,
+    #4d6691,
+    #2a477c
+  ) !important ;
   color: white;
   border-radius: 5px;
   font-size: 19px !important;
-  padding: 5px 20px 10px 20px ;
+  padding: 5px 20px 10px 20px;
   font-weight: bold;
   border: 0px solid transparent !important;
-  transition: all .7s ease !important;
+  transition: all 0.7s ease !important;
   background-size: 250%;
 }
-.button-2:hover{
+.button-2:hover {
   background-position: right;
 }
 
-
-
-
-
 /* -------------------------------section quran-------------------------------------------- */
-.quran-section{
+.quran-section {
   background-color: rgb(255, 255, 255);
   height: 100vh;
 }
-.quran{
+.quran {
   margin-top: 120px !important;
   width: 100%;
   height: calc(100vh - 120px);
   background-image: url(../../imgs/bg4.png);
 }
-.quran-img-div{
+.quran-img-div {
   display: flex !important;
   flex-direction: column;
-  /* justify-content: space-evenly !important; */
   align-items: center !important;
-  
 }
-.quran-img{
+.quran-img {
   width: 70%;
-  margin: 37px 0px 20px 0px; 
+  margin: 37px 0px 20px 0px;
   height: 70%;
-  /* border-radius: 50px; */
-  border-top-right-radius:100px ;
-  border-bottom-left-radius:100px ;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
   border: 2px solid var(--color-4);
 }
-.quran-data{
+.quran-data {
   margin-top: 100px;
 }
 
-.quran-data h1{
-  /* width: fit-content; */
+.quran-data h1 {
   width: 90%;
   margin: auto;
-  margin-top: 20px ;
+  margin-top: 20px;
   font-size: 40px;
   font-weight: bold;
   padding: 8px 15px 35px;
   text-shadow: 1px 8px 10px var(--color-3);
-  /* background-color: var(--color-3); */
   color: var(--color-5);
-  font-family: 'sans-serif';
-
-} 
-.quran-data h4{
+  font-family: "sans-serif";
+}
+.quran-data h4 {
   font-weight: bold;
   margin: auto;
-  margin-bottom:25px ;
+  margin-bottom: 25px;
   font-size: 25px;
-  color: #80551a ;
-  padding: 10px 20px 15px ;
+  color: #80551a;
+  padding: 10px 20px 15px;
   width: fit-content;
 }
-.quran-data p{
+.quran-data p {
   margin-bottom: 45px;
   font-size: 20px;
   font-weight: 400;
 }
 
-.btn-1,.btn-2{
+.btn-1,
+.btn-2 {
   padding: 10px 15px 10px 10px;
   margin-left: 10px;
   border-radius: 25px;
   background-color: #917650;
-  /* color: white; */
   font-size: 15px;
   font-weight: bold;
   border: 1px solid #664920;
-  transition: all .9s;
-
+  transition: all 0.9s;
 }
-.btn-2{
+.btn-2 {
   background-color: rgb(253, 251, 251);
   padding: 10px 15px 12px 10px;
   color: #614217;
 }
 
-.btn-1 i , .btn-2 i{
-  margin:0px 8px;
+.btn-1 i,
+.btn-2 i {
+  margin: 0px 8px;
   font-size: 20px;
 }
 
 .btn-1 a {
   text-decoration: none;
   color: white;
-  transition: all .9s;
-  
-} 
-.btn-2 a{
+  transition: all 0.9s;
+}
+.btn-2 a {
   text-decoration: none;
   color: #614217;
-  transition: all .9s;
-} 
+  transition: all 0.9s;
+}
 
-.btn-1:hover{
+.btn-1:hover {
   background-color: white;
   color: #614217 !important;
-   a{
-      color: #614217 !important;
+  a {
+    color: #614217 !important;
   }
-
 }
 
-.btn-2:hover{
+.btn-2:hover {
   background-color: #917650;
   color: white;
-  a{
-      color: white;
+  a {
+    color: white;
   }
 }
 
-#AhadithWITHOUTHEADER{
+#AhadithWITHOUTHEADER {
   margin-top: -180px;
   padding-top: 30px;
 }
@@ -222,140 +206,124 @@
 }
 
 /*      ------------------------------- media query---------------------------------------- */
-@media screen and (min-width) and (max-width: 360px) {}
-@media screen and (max-width: 576px) { 
-    .data-home{
-        margin-right: 25px;
-    }
-    .data-home p{
-        width: 90%  ;
-        margin-top: 30px ;
-        color: rgb(255, 255, 255);
-        font-size: 18.5px;
-      }
-      .data-home h1{
-        color: white;
-        font-size: 30px;
-        margin-bottom: 25px;
-      }
-      .home-title{
-        font-weight: bold;
-        /* color: rgb(165, 122, 40) ; */
-        font-size: 50px;
-        /* color: #021230; */
-         background-image: linear-gradient(90deg ,#0b1c3b, #142647 );
-        -webkit-background-clip: text !important;
-        color: transparent !important; 
-        text-shadow: 7px 12px 12px #695441;
-      }
-      .data-home p{
-        width: 50%;
-        margin-top: 30px ;
-        color: rgb(255, 255, 255);
-        font-size: 18.5px;
-      }
-    
-      .data-home button i{
-        /* color: #021230; */
-        color: white;
-        font-size: 15px;
-        transition: .7s all !important;
-    
-    }
-    
+@media screen and (min-width) and (max-width: 360px) {
+}
+@media screen and (max-width: 576px) {
+  .data-home {
+    margin-right: 25px;
+  }
+  .data-home p {
+    width: 90%;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 18.5px;
+  }
+  .data-home h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .home-title {
+    font-weight: bold;
+    font-size: 50px;
+    background-image: linear-gradient(90deg, #0b1c3b, #142647);
+    -webkit-background-clip: text !important;
+    color: transparent !important;
+    text-shadow: 7px 12px 12px #695441;
+  }
+  .data-home p {
+    width: 50%;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 18.5px;
+  }
+
+  .data-home button i {
+    color: white;
+    font-size: 15px;
+    transition: 0.7s all !important;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media screen and  (max-width: 768px) { 
+@media screen and (max-width: 768px) {
   .quran-section {
     height: fit-content;
-}
-    .data-home{
-        margin-right: 25px;
-    }
-    .data-home p{
-        width: 90% !important;
-        margin-top: 30px ;
-        color: rgb(255, 255, 255);
-        font-size: 19.5px;
-      }
-      .quran{
-        margin-top: 30px !important;
-        width: 100%;
-        height: fit-content !important;
-        background-image: url(../../imgs/bg4.png);
-      }
-      .btn-1{
-        margin-bottom: 10px;
-      }
-      .row {
-        margin-right: 0px !important;
-        
-    }
-   
   }
-
+  .data-home {
+    margin-right: 25px;
+  }
+  .data-home p {
+    width: 90% !important;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 19.5px;
+  }
+  .quran {
+    margin-top: 30px !important;
+    width: 100%;
+    height: fit-content !important;
+    background-image: url(../../imgs/bg4.png);
+  }
+  .btn-1 {
+    margin-bottom: 10px;
+  }
+  .row {
+    margin-right: 0px !important;
+  }
+}
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
-
-@media screen  and (min-width: 360px) and (max-width: 361px) { 
-    .data-home{
-        margin-right: 25px;
-        margin-top: 25px;
-    }
-    .data-home p{
-        width: 90%  ;
-        margin-top: 30px ;
-        color: rgb(255, 255, 255);
-        font-size: 16.5px !important;
-      }
-      .data-home h1{
-        color: white;
-        font-size: 30px;
-        margin-bottom: 25px;
-      }
-      .home-title{
-        font-weight: bold;
-        font-size: 40px;
-        background-image: linear-gradient(90deg ,#0b1c3b, #142647 );
-        -webkit-background-clip: text !important;
-        color: transparent !important; 
-        text-shadow: 7px 12px 12px #695441;
-      }
-      .data-home p{
-        width: 50%;
-        margin-top: 30px ;
-        color: rgb(255, 255, 255);
-        font-size: 18.5px;
-      }
-    
-      .data-home button i{
-        /* color: #021230; */
-        color: white;
-        font-size: 15px;
-        transition: .7s all !important;
-    
-    }
-    .quran{
-      margin-top: 30px !important;
-      width: 100%;
-      height: calc(135vh - 30px);
-      background-image: url(../../imgs/bg4.png);
-    }
-    .btn-1{
-      margin-bottom: 10px;
-      font-size: 13px;
-    }
-    .row {
-      margin-right: 0px !important;
-      
-  }
+@media (min-width: 1200px) {
 }
 
+@media screen and (min-width: 360px) and (max-width: 361px) {
+  .data-home {
+    margin-right: 25px;
+    margin-top: 25px;
+  }
+  .data-home p {
+    width: 90%;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 16.5px !important;
+  }
+  .data-home h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .home-title {
+    font-weight: bold;
+    font-size: 40px;
+    background-image: linear-gradient(90deg, #0b1c3b, #142647);
+    -webkit-background-clip: text !important;
+    color: transparent !important;
+    text-shadow: 7px 12px 12px #695441;
+  }
+  .data-home p {
+    width: 50%;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 18.5px;
+  }
 
-
-
-
-
-
+  .data-home button i {
+    color: white;
+    font-size: 15px;
+    transition: 0.7s all !important;
+  }
+  .quran {
+    margin-top: 30px !important;
+    width: 100%;
+    height: calc(135vh - 30px);
+    background-image: url(../../imgs/bg4.png);
+  }
+  .btn-1 {
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+  .row {
+    margin-right: 0px !important;
+  }
+}
