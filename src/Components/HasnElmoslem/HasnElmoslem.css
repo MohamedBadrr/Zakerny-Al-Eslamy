@@ -1,6 +1,6 @@
 .azkar-contanier{
     padding-top: 75px;
-    height: fit-content ;
+    min-height: 90vh ;
 }
 .title-azkar{
     width: 100% !important;

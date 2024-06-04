@@ -81,7 +81,7 @@ const Contactus = () => {
                     <span>مـــصـــر-القـــــاهـــــرة</span>
                 </div>
                 <div className='myEmail'>
-                    <a href="mailto:badr59497@gmail.com">MohamedBadr@gmail.com</a>
+                    <a className='fw-bold' href="mailto:badr59497@gmail.com">مــحــمــد بــدر اســمــاعــيــل </a>
                     <i class="fa-solid fa-envelope"></i>
                 </div>
 

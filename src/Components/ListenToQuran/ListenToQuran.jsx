@@ -7,7 +7,6 @@ import Footer from '../Footer/Footer';
 
 const ListenToQuran = () => {
 
-
     const [readers, setReaders]=useState({
         loading:false,
         results:[],

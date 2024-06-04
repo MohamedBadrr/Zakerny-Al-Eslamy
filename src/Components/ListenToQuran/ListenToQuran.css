@@ -1,6 +1,6 @@
 .suwar-contanier{
     padding-top: 75px;
-    height: fit-content ;
+    min-height: 92vh;
 
 }
 .title{
